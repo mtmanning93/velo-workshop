@@ -9,6 +9,7 @@
 body {
     font-family: Roboto, sans-serif;
     color: #121212;
+    background-color: #F5F5F5;
 }
 
 /* Headings and Logo */
@@ -26,7 +27,7 @@ h1, h2, h3 {
     margin-left: 40px;
 }
 
-/* Main Navigation */ 
+/* Main Navigation Bar */ 
 
 #main-nav {
     float: right;
