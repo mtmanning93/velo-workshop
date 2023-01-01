@@ -74,4 +74,24 @@ h1, h2, h3 {
     margin: 0 5%;
 }
 
+/* Main home page section*/
 
+#main {
+    height: 900px;
+    width: 90%;
+    margin: 10px 5%;
+    background-color: #30475E;
+    position: relative;
+}
+
+/* Main section div containers */
+
+.container {
+    height: 30%;
+    width: 45%;
+    background-color: #F05454;
+    display: inline-block;
+    position: absolute;
+    margin: 1.5% 2.5%;
+    border: 2px solid #121212;
+}
