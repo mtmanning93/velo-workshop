@@ -232,7 +232,7 @@ footer ul {
     color: #F05454;
 }
 
-/* Services.html styling */
+/* Services.html main styling */
 
 #services-main {
     width: 90%;
@@ -246,4 +246,19 @@ footer ul {
     height: 600px;
     border: 1px solid black;
     box-sizing: border-box;
+    text-align: center;
+}
+
+/* service types styling */
+
+#leisure {
+    background-color: #30475E;
+}
+
+#weekend {
+    background-color: #E5BA73;
+}
+
+#pro {
+    background-color: #F05454;
 }
