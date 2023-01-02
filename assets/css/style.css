@@ -96,5 +96,39 @@ h1, h2, h3 {
     border: 2px solid #121212;
 }
 
+/* Information container */
+
+.container {
+    float: left;
+    height: inherit;
+    width: 50%;
+    height: 100%;
+    background-color: #F05454;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Testimonial section */
+
+#test-img-cont img {
+    width: 100%;
+    position: absolute;
+    top: -10%;
+}
+
+#test-text-cont {
+    text-align: center;
+}
+
+.text > p {
+    padding: 15% 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-size: 1.1em;
+}
+
+
+
 
     
