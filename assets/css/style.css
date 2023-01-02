@@ -199,17 +199,16 @@ table {
 footer {
     height: 120px;
     width: 100%;
-    padding: 25px 40px;
 }
 
 footer ul {
     list-style: none;
     display: inline-block;
-
 }
 
 #contact-info {
     font-size: 1.1em;
+    padding: 25px 40px;
 }
 
 .social-icons {
