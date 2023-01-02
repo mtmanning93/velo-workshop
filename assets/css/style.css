@@ -231,3 +231,19 @@ footer ul {
 .social-icons i:hover {
     color: #F05454;
 }
+
+/* Services.html styling */
+
+#services-main {
+    width: 90%;
+    height: auto;
+    margin: 10px 5% 20px 5%;
+}
+
+.serv-box {
+    float:left;
+    width: 33.33%;
+    height: 600px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
