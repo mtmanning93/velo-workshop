@@ -78,20 +78,23 @@ h1, h2, h3 {
 
 #main {
     height: 900px;
-    width: 90%;
-    margin: 10px 5%;
-    background-color: #30475E;
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+    background-color: #F5F5F5;
     position: relative;
 }
 
-/* Main section div containers */
+/* 3 x main section div containers */
 
-.container {
+#main > div {
     height: 30%;
-    width: 45%;
-    background-color: #F05454;
-    display: inline-block;
-    position: absolute;
-    margin: 1.5% 2.5%;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 1.5% 5%;
+    background-color: #30475E;
     border: 2px solid #121212;
 }
+
+
+    
