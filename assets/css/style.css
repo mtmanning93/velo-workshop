@@ -12,6 +12,10 @@ body {
     background-color: #F5F5F5;
 }
 
+header {
+    height: 100px;
+}
+
 /* Headings and Logo */
 
 h1,
@@ -80,9 +84,9 @@ h3 {
 /* Main home page section*/
 
 #main {
-    height: 900px;
+    height: 950px;
     width: 100%;
-    margin-top: 10px;
+    margin: 10px 0;
     background-color: #F5F5F5;
 }
 
@@ -189,3 +193,5 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Footer */
