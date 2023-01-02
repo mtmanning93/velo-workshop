@@ -211,6 +211,8 @@ footer ul {
     padding: 25px 40px;
 }
 
+/* Social Icons */
+
 .social-icons {
     float: right;
     margin: 0 auto;
@@ -231,7 +233,7 @@ footer ul {
     color: #F05454;
 }
 
-/* Services.html main styling */
+/* Services.html Styling */
 
 #services-main {
     width: 90%;
@@ -239,6 +241,7 @@ footer ul {
     margin: 10px 5% 20px 5%;
     background: url(../images/workshop.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .serv-box {
@@ -266,6 +269,8 @@ footer ul {
     font-size: 1.2em;
 }
 
+/* Book now button */
+
 .book-now {
     background-color: #F05454;
     font-family: Roboto Condensed, sans-serif;
@@ -292,4 +297,21 @@ footer ul {
 
 #pro {
     background-color: rgba(240, 84, 84, 0.9);
+}
+
+/* form.html styling */
+
+#form-container {
+        width: 75%;
+        height: 500px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0; 
+        background-color: rgba(240, 84, 84, 0.9);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
 }
