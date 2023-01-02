@@ -35,43 +35,43 @@
 
     <section id="services-main">
 
-        <div id="form-container">
+        
 
-            <form action="http://imagine-it.org/processform.php" method="POST">
+            <form id="booking-form" action="http://imagine-it.org/processform.php" method="POST">
 
                 <label for="fname">First name:</label>
-                <input id="fname" name="first_name" type="text" required>
-
+                <input id="fname" class="form_input" name="first_name" type="text" required>
+                <br>
                 <label for="lname">Last name:</label>
-                <input id="lname" name="last_name" type="text" required>
-
-                <label for="email"></label>
-                <input id="email" name="email" type="email" required>
-
+                <input id="lname" class="form_input" name="last_name" type="text" required>
+                <br>
+                <label for="email">Email:</label>
+                <input id="email" class="form_input" name="email" type="email" required>
+                <br>
                 <label for="phone">Mobile:</label>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
-
+                <input type="tel" class="form_input" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                <br>
                 <label for="bike">Bike make/ model:</label>
-                <input id="bike" name="bike" type="text" required>
-
+                <input id="bike" class="form_input" name="bike" type="text" required>
+                <br>
                 <label for="diagnosis">Specifics (if necessary): <br>
-                    <textarea name="diagnosis" id="diagnosis" cols="30" rows="10"></textarea>
+                    <textarea name="diagnosis" class="form_input" id="diagnosis" cols="30" rows="10"></textarea>
                 </label>
-
+                <br>
                 <label for="service-select">Type of service:</label>
-                <select name="service" id="service-select" required>
+                <select name="service" class="form_input" id="service-select" required>
                     <option value="leisure">Leisure</option>
                     <option value="weekend-rider">Weekend Rider</option>
                     <option value="pro">Pro</option>
                 </select>
-
+                <br>
                 <label for="date">Availability</label>
-                <input id="date" name="date" type="date" required>
-
+                <input id="date" class="form_input" name="date" type="date" required>
+                <br>
                 <p>(payment on bike collection)</p>
                 <input class="book-now" type="submit" value="Book Now">
+
             </form>
-        </div>
 
     </section>
 

@@ -182,7 +182,8 @@ h3 {
 
 /* Button hover effect */
 
-#serv-button:hover, .book-now:hover {
+#serv-button:hover,
+.book-now:hover {
     box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
 }
 
@@ -245,13 +246,13 @@ footer ul {
 }
 
 .serv-box {
-    float:left;
+    float: left;
     width: 30%;
     height: 500px;
     border: 1px solid black;
     box-sizing: border-box;
     text-align: center;
-    margin: 50px 1.66%; 
+    margin: 50px 1.66%;
 }
 
 .serv-box h1 {
@@ -284,7 +285,7 @@ footer ul {
     border-radius: 5px;
     margin: 40px 0;
 }
- 
+
 /* service types styling */
 
 #leisure {
@@ -301,17 +302,20 @@ footer ul {
 
 /* form.html styling */
 
-#form-container {
-        width: 75%;
-        height: 500px;
-        border: 1px solid black;
-        box-sizing: border-box;
-        text-align: center;
-        margin: 0; 
-        background-color: rgba(240, 84, 84, 0.9);
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+#booking-form {
+    width: 75%;
+    text-align: center;
+    height: 500px;
+    margin: 0;
+    background-color: rgba(240, 84, 84, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.form_input {
+    background: #F5F5F5;
+    border: 2px solid #121212;
 }
