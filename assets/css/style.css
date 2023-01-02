@@ -150,3 +150,11 @@ h1, h2, h3 {
     font-size: 2em;
     padding-bottom: 10px;
   }
+
+  /* Servicing button */
+
+  #serv-button-cont {
+    background: url(../images/crank-repair.jpg) no-repeat center center;
+    background-size: cover;
+    opacity: 0.6;
+  }
