@@ -79,18 +79,15 @@ h1, h2, h3 {
 #main {
     height: 900px;
     width: 100%;
-    margin: 0;
-    padding-top: 10px;
+    margin-top: 10px;
     background-color: #F5F5F5;
-    position: relative;
 }
 
 /* 3 x main section div containers */
 
-#main > div {
-    height: 30%;
+.info {
+    height: 300px;
     width: 90%;
-    box-sizing: border-box;
     margin: 1.5% 5%;
     background-color: #30475E;
     border: 2px solid #121212;
@@ -100,15 +97,15 @@ h1, h2, h3 {
 
 .container {
     float: left;
-    height: inherit;
     width: 50%;
     height: 100%;
     background-color: #F05454;
+    box-sizing: content-box;
     overflow: hidden;
     position: relative;
 }
 
-/* Testimonial section */
+/* Testimonial image */
 
 #test-img-cont img {
     width: 100%;
@@ -116,19 +113,40 @@ h1, h2, h3 {
     top: -10%;
 }
 
-#test-text-cont {
+/* Text Containers (had to research translate to figure out how to center both vertically and horizontally (W3schools), below is my original code
+
+.words {
     text-align: center;
-}
+    width: 90%;
+    border: 1px solid black;
+    margin: 50px auto;
+    padding: 50px 0;
+} 
+*/
 
-.text > p {
-    padding: 15% 0 0 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    font-size: 1.1em;
-}
+  .words {
+    text-align: center;
+    width: 90%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
+  .words p {
+    font-size: 1.5em;
+  }
 
+  .words h3 {
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 10px;
+  }
 
-
-    
+  .words h2 {
+    text-decoration: underline;
+    font-size: 2em;
+    padding-bottom: 10px;
+  }
