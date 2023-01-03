@@ -337,7 +337,13 @@ select {
 
 /* Team Page */
 
-#team-img {
-    background: url(../images/team-img.jpg) no-repeat center center;
-    background-size: cover;
+#team-image-container {
+    background-color: rgba(245, 245, 245, 0.9);
 }
+
+#team-img {
+    max-width: 120%;
+    position: relative;
+    right: 20%;
+}
+
