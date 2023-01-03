@@ -304,8 +304,7 @@ footer ul {
 
 #booking-form {
     width: 75%;
-    text-align: center;
-    height: 500px;
+    height: 90%;
     margin: 0;
     background-color: rgba(240, 84, 84, 0.9);
     position: absolute;
@@ -315,7 +314,19 @@ footer ul {
     transform: translate(-50%, -50%);
 }
 
-.form_input {
-    background: #F5F5F5;
-    border: 2px solid #121212;
+/* Style inputs */
+
+#booking-form input, select {
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-divider {
+    width: 45%;
+    float: left;
+    margin: 5% 2.5%;
 }
