@@ -255,7 +255,8 @@ footer ul {
     margin: 50px 1.66%;
 }
 
-.serv-box h1, form h1 {
+.serv-box h1,
+form h1 {
     text-decoration: underline;
     font-size: 2em;
     margin: 1.5em auto;
@@ -317,7 +318,8 @@ footer ul {
 
 /* Style inputs */
 
-#booking-form input, select {
+#booking-form input,
+select {
     padding: 5px 5px;
     margin: 8px 0;
     display: inline-block;
