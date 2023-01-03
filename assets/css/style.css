@@ -236,7 +236,7 @@ footer ul {
 
 /* Services.html Styling */
 
-#services-main {
+.services-main {
     width: 90%;
     height: 600px;
     margin: 10px 5% 20px 5%;
@@ -253,6 +253,7 @@ footer ul {
     box-sizing: border-box;
     text-align: center;
     margin: 50px 1.66%;
+    overflow: hidden;
 }
 
 .serv-box h1,
@@ -332,4 +333,11 @@ select {
     width: 45%;
     float: left;
     margin: 0 2.5%;
+}
+
+/* Team Page */
+
+#team-img {
+    background: url(../images/team-img.jpg) no-repeat center center;
+    background-size: cover;
 }
