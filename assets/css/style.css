@@ -196,7 +196,7 @@ table {
     margin-right: auto;
 }
 
-.container:hover, .serv-box:hover {
+.container:hover, .serv-box:hover, #booking-form:hover {
     box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.24), 0 20px 50px 0 rgba(46, 45, 45, 0.657);
 }
 
@@ -321,6 +321,7 @@ form h1 {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    transition: 1s;
 }
 
 /* form.html Style inputs */
