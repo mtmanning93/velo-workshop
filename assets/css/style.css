@@ -206,7 +206,9 @@ table {
     margin-right: auto;
 }
 
-.container:hover, .serv-box:hover, #booking-form:hover {
+.container:hover,
+.serv-box:hover,
+#booking-form:hover {
     box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.24), 0 20px 50px 0 rgba(46, 45, 45, 0.657);
 }
 
@@ -215,7 +217,7 @@ table {
 footer {
     padding: 30px 40px;
     margin-top: 15px;
-    color: #d0d1d3;
+    color: #ffffff;
     background-color: #2e455cc8;
 
 }
@@ -242,7 +244,7 @@ footer ul {
 .social-icons i {
     font-size: 200%;
     text-decoration: none;
-    color: #d0d1d3;
+    color: #ffffff;
     margin-left: 2em;
 }
 
@@ -318,7 +320,7 @@ form h1 {
 }
 
 #pro {
-    background-color: rgba(208,209,211, 0.9);
+    background-color: rgba(208, 209, 211, 0.9);
 }
 
 /* form.html styling */
@@ -327,14 +329,20 @@ form h1 {
     width: 75%;
     margin: 30px auto;
     text-align: center;
-    padding: 20px;
-    background-color: rgb(245,245,245);
+    padding: 20px 40px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 
 /* form.html Style inputs */
 
 #booking-form input,
 select {
+    width: 50%;
     padding: 5px 5px;
     margin: 8px 0;
     display: inline-block;
@@ -344,9 +352,9 @@ select {
 }
 
 .form-divider {
-    width: 50%;
+    width: 45%;
     float: left;
-    margin: 20px auto;
+    margin: 20px 0;
     text-align: left;
 }
 
@@ -356,7 +364,7 @@ select {
     border: 2px solid #121212;
     text-align: left;
     overflow: scroll;
-    margin: 8px auto;
+    margin: 20px auto;
 }
 
 /* Team Page */
