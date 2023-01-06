@@ -307,7 +307,7 @@ form h1 {
     border: 2px solid #121212;
     border-radius: 5px;
     margin: 40px 0;
-    
+
 }
 
 /* service types styling */
@@ -395,6 +395,17 @@ select {
         padding: 0;
     }
 
+    .services-main {
+        flex-direction: column;
+        height: 1600px;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+
+    .serv-box {
+        width: 90%;
+    }
+
 }
 
 /* For Small Screen/ Large Phone Screen Sizes */
@@ -413,6 +424,12 @@ select {
 
     .container {
         width: 100%;
+    }
+
+    .social-icons {
+        display: inline;
+        text-align: center;
+
     }
 
 }
@@ -435,4 +452,11 @@ select {
         width: 100%;
     }
 
+    .services-main {
+        margin: 0;
+    }
+
+    .serv-box {
+        width: 100%;
+    }
 }
