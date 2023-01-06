@@ -219,12 +219,13 @@ footer {
     margin-top: 15px;
     color: #ffffff;
     background-color: #2e455cc8;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer ul {
     list-style: none;
-    display: inline-block;
 }
 
 #contact-info {
@@ -234,11 +235,7 @@ footer ul {
 /* Social Icons */
 
 .social-icons {
-    float: right;
-}
-
-.social-icons>li {
-    display: inline;
+    display: inherit;
 }
 
 .social-icons i {
