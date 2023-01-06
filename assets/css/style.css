@@ -173,7 +173,7 @@ h3 {
 
 #serv-button {
     height: fit-content;
-    background-color: #F05454;
+    background-color: #527090;
     font-family: Roboto Condensed, sans-serif;
     color: #121212;
     text-align: center;
@@ -298,7 +298,7 @@ form h1 {
 /* Book now button */
 
 .book-now {
-    background-color: #F05454;
+    background-color: #527090;
     font-family: Roboto Condensed, sans-serif;
     color: #121212;
     text-align: center;
@@ -315,15 +315,20 @@ form h1 {
 /* service types styling */
 
 #leisure {
-    background-color: rgba(87, 170, 255, 0.9);
+    background-color: rgba(242, 242, 242, 0.9);
 }
 
 #weekend {
-    background-color: rgba(253, 255, 130, 0.9);
+    background-color: rgba(57, 106, 181, 0.9);
 }
 
 #pro {
-    background-color: rgba(250, 252, 255, 0.9);
+    background-color: rgba(30, 47, 74, 0.9); 
+    color: #F5F5F5;
+}
+
+#pro>div>h1 {
+    color: #F5F5F5;
 }
 
 /* form.html styling */
