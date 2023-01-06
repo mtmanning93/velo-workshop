@@ -33,6 +33,7 @@ h3 {
     color: #F05454;
     text-transform: uppercase;
 }
+
 /* Logo and Main Navigation Bar */
 
 #logo {
@@ -113,7 +114,6 @@ h3 {
     height: 100%;
     overflow: hidden;
     position: relative;
-    transition: 1s;
 }
 
 /* Testimonial image */
@@ -374,4 +374,61 @@ select {
     max-width: 120%;
     position: relative;
     right: 20%;
+}
+
+/* Media Queries */
+
+
+/* For Medium/ Tablet Screen Sizes */
+
+@media screen and (max-width: 950px) {
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+/* For Small Screen/ Large Phone Screen Sizes */
+
+@media screen and (max-width: 600px) {
+
+    #main {
+        height: 2000px;
+    }
+
+    .info {
+        height: 600px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+}
+
+/* For Screen Sizes of Large to Small Phones */
+
+@media screen and (max-width: 500px) {
+
+    #img-container {
+        height: 400px;
+    }
+
+    #home-img {
+        height: 100%;
+        width: auto;
+        margin: 0;
+    }
+
+    .info {
+        width: 100%;
+    }
+
 }
