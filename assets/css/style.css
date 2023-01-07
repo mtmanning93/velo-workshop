@@ -416,10 +416,9 @@ select {
 
 .team-row {
     width: 90%;
-    padding: 10px;
+    padding: 20px 0;
     display: flex;
     flex-direction: row;
-
 }
 
 /* PROFILE INFO */
@@ -476,6 +475,17 @@ select {
 
 .profile-img img {
     width: 100%;
+}
+
+/* Middle Row */
+
+#mid-row {
+    flex-direction: row-reverse;
+}
+
+#mid-row .profile-info {
+    padding-right: 5%;
+    padding-left: 0;
 }
 
 /* Media Queries */
