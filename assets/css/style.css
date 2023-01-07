@@ -391,8 +391,7 @@ select {
     color: #F5F5F5;
     background-color: #42526e;
     padding: 20px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border: 2px solid black;
 }
 
 #team-intro h1 {
