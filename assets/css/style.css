@@ -109,7 +109,7 @@ h3 {
 /* Information container */
 
 .container {
-    color: #d0d1d3;
+    color: #F5F5F5;
     width: 50%;
     height: 100%;
     overflow: hidden;
@@ -385,9 +385,14 @@ select {
 /* Intro */
 
 #team-intro {
-    width: 100%;
+    width: 90%;
     margin: 20px auto;
     text-align: center;
+    color: #F5F5F5;
+    background-color: #42526e;
+    padding: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #team-intro h1 {
@@ -461,7 +466,7 @@ select {
     margin-left: 20px;
 }
 
-.profile-about #qualifications, #achievements {
+.profile-about, #qualifications, #achievements {
     line-height: 1.4;
 }
 
