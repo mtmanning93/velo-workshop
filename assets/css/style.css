@@ -382,14 +382,100 @@ select {
 
 /* Team Page */
 
-#team-image-container {
-    background-color: rgba(245, 245, 245, 0.9);
+/* Intro */
+
+#team-intro {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
 }
 
-#team-img {
-    max-width: 120%;
-    position: relative;
-    right: 20%;
+#team-intro h1 {
+    font-size: 3em;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#team-intro p {
+    width: 90%;
+    font-size: 1.5em;
+    margin: 0 auto 40px auto;
+}
+
+/* TEAM MAIN SECTION */
+
+#team-main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/* TEAM PROFILE */
+
+.team-row {
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* PROFILE INFO */
+
+.profile-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5%;
+}
+
+.profile-titles h1 {
+    font-size: 2em;
+}
+
+.profile-titles {
+    padding: 20px 0 10px 0;
+    border-bottom: 2px solid black;
+}
+
+.profile-about {
+    padding: 10px 0;
+}
+
+/* Profile qualifications and achievements */
+
+.profile-list-wrapper {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-list-wrapper ul {
+    list-style-type: none;
+}
+
+#achievements {
+    margin-left: 20px;
+}
+
+.profile-about #qualifications, #achievements {
+    line-height: 1.4;
+}
+
+/* PROFILE IMAGES */
+
+.profile-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.profile-img img {
+    width: 100%;
 }
 
 /* Media Queries */
