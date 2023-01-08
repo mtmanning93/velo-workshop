@@ -261,8 +261,6 @@ footer ul {
 .services-main {
     height: 600px;
     margin: 20px 5%;
-    background: url(../images/workshop.jpg);
-    background-size: cover;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -274,13 +272,16 @@ footer ul {
 .serv-box {
     width: 30%;
     padding: 20px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 2px;
     box-sizing: border-box;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.service-type-info div {
+    padding-bottom: 20px;
 }
 
 .serv-box h1,
@@ -322,7 +323,7 @@ form h1 {
 /* service types styling */
 
 #leisure {
-    background-color: rgba(242, 242, 242, 0.9);
+    background-color: rgba(158, 179, 180, 0.9);
 }
 
 #weekend {
@@ -337,6 +338,36 @@ form h1 {
 #pro>div>h1 {
     color: #F5F5F5;
 }
+
+/* Gallery Styling */
+
+#gallery-title {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+#gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#gallery div {
+    width: 30%;
+}
+
+#gallery img {
+    width: 100%;
+}
+
+#gallery div:first-child img {
+    height: 100%;
+}
+
+
 
 /* form.html styling */
 
@@ -431,6 +462,7 @@ select {
     padding: 20px 20px;
     display: flex;
     flex-direction: row;
+    border-radius: 2px;
 }
 
 /* PROFILE INFO */
