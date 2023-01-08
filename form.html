@@ -37,8 +37,10 @@
 
 
         <form id="booking-form" action="http://imagine-it.org/processform.php" method="POST">
-
-            <h1>Book in now to be ready for your next ride!</h1>
+            
+            <div id="form-title">
+                <h2>Book in now to be ready for your next ride!</h2>
+            </div>
 
             <div class="form-divider">
                 <label for="fname">First name:</label>
@@ -55,6 +57,7 @@
                 <br>
                 <label for="service-select">Type of service:</label>
                 <select name="service" id="service-select" required>
+                    <option value="">Choose...</option>
                     <option value="leisure">Leisure</option>
                     <option value="weekend-rider">Weekend Rider</option>
                     <option value="pro">Pro</option>
@@ -77,11 +80,15 @@
 
             <div id="terms">
                 <h3>Please read the following Terms & Conditions carefully.</h3>
-                <p>We are a Cytech Qualified Professional workshop here in Interlaken employing only Cytech Master Technicians.</p>
-                <p> Experienced and Cytech qualified Master Technicians and quality original parts ensure your repair or service is carried out to the highest standards using only quality parts form suppliers such as Shimano, Campagnolo, Mavic & SRAM.</p>
+                <p>We are a Cytech Qualified Professional workshop here in Interlaken employing only Cytech Master
+                    Technicians.</p>
+                <p> Experienced and Cytech qualified Master Technicians and quality original parts ensure your repair or
+                    service is carried out to the highest standards using only quality parts form suppliers such as
+                    Shimano, Campagnolo, Mavic & SRAM.</p>
                 <p>All our work and supplied parts are guaranteed.</p>
                 <br>
-                <p>All our prices reflect a basic price, and therefore do not include material costs or unforseen extra labours.</p>
+                <p>All our prices reflect a basic price, and therefore do not include material costs or unforseen extra
+                    labours.</p>
                 <p>All cleanng products used are eco friendly.</p>
             </div>
 
@@ -109,13 +116,14 @@
                     aria-label="Visit our youtube for more (opens in new tab)"><i class="fa-brands fa-youtube"></i></a>
             </li>
             <li>
-                <a href="mailto: atm66@hotmail.co.uk" target="_blank" rel="noopener"
+                <a href="mailto:atm66@hotmail.co.uk" target="_blank" rel="noopener"
                     aria-label="Send us a direct email (opens email draft)"><i class="fa-solid fa-envelope"></i></a>
             </li>
         </ul>
     </footer>
-</body>
 
-<script src="https://kit.fontawesome.com/3440ecbefc.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3440ecbefc.js" crossorigin="anonymous"></script>
+
+</body>
 
 </html>

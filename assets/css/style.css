@@ -252,8 +252,7 @@ table {
     margin: auto;
 }
 
-#video-text-cont h2,
-p {
+#video-text-cont h2 p {
     padding: 10px 20px;
 }
 
@@ -329,6 +328,12 @@ footer ul {
     padding-bottom: 20px;
 }
 
+.service-type-info h2 {
+    font-size: 2.5em;
+    color: #121212;
+    padding: 20px 0;
+}
+
 .serv-box h1,
 form h1 {
     font-size: 2em;
@@ -376,7 +381,7 @@ form h1 {
 
 #pro {
     background-color: rgba(30, 47, 74, 0.9);
-    color: #F5F5F5;
+    color: #121212;
 }
 
 #pro>div>h1 {
@@ -411,6 +416,17 @@ form h1 {
 }
 
 /* FORM.HTML */
+
+#form-title {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+#form-title>h2 {
+    color: #121212;
+}
 
 #booking-form {
     width: 75%;
@@ -515,8 +531,13 @@ select {
     padding-left: 5%;
 }
 
-.profile-titles h1 {
+.profile-titles h2 {
     font-size: 2em;
+    color: #121212;
+}
+
+.profile-titles>h2, .profile-titles>h3 {
+    text-decoration: none;
 }
 
 .profile-titles {
@@ -541,13 +562,13 @@ select {
     list-style-type: none;
 }
 
-#achievements {
+.achievements {
     margin-left: 20px;
 }
 
 .profile-about,
-#qualifications,
-#achievements {
+.qualifications,
+.achievements {
     line-height: 1.4;
 }
 
@@ -602,7 +623,7 @@ select {
 
     #video-text-cont {
         width: 100%;
-        padding-bottom: 20px; 
+        padding: 20px 0; 
     }
 
     #riding-video {
@@ -755,6 +776,12 @@ select {
 
     /* form.html */
 
+    #form-title {
+        width: 75%;
+        font-size: 1em;
+        margin: 0 auto;
+    }
+
     #booking-form {
         width: 100%;
         padding: 0;
@@ -835,7 +862,7 @@ select {
         flex-direction: column;
     }
 
-    #achievements {
+    .achievements {
         margin: 10px 0 0 0;
     }
 
