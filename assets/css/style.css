@@ -39,6 +39,7 @@ h3 {
 #logo {
     font-size: 180%;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 
 #main-nav,
@@ -52,7 +53,12 @@ h3 {
     font-family: Roboto Condensed, sans-serif;
     font-size: 150%;
     text-transform: uppercase;
-    margin: 0 15px;
+    padding: 0 8px;
+    border-right: 2px solid black;
+}
+
+#main-nav li:last-child {
+    border-right: none;
 }
 
 #main-nav a {
@@ -208,7 +214,8 @@ table {
 
 .container:hover,
 .serv-box:hover,
-#booking-form:hover {
+#booking-form:hover,
+.team-row:hover {
     box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.24), 0 20px 50px 0 rgba(46, 45, 45, 0.657);
 }
 
@@ -420,7 +427,7 @@ select {
 
 .team-row {
     width: 90%;
-    padding: 20px 0;
+    padding: 20px 20px;
     display: flex;
     flex-direction: row;
 }
