@@ -693,6 +693,10 @@ select {
         display: none;
     }
 
+    .words p {
+        font-size: 1em;
+    }
+
     /* Services.html */
 
     .page-intro {
