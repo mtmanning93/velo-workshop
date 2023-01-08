@@ -391,23 +391,24 @@ select {
 
 /* Intro */
 
-#team-intro {
-    width: 90%;
+.page-intro {
+    width: 100%;
     margin: 20px auto;
     text-align: center;
     color: #F5F5F5;
     background-color: #42526e;
-    padding: 20px;
-    border: 2px solid black;
+    padding: 20px 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
-#team-intro h1 {
+.page-intro h1 {
     font-size: 3em;
     text-decoration: underline;
     margin-bottom: 20px;
 }
 
-#team-intro p {
+.page-intro p {
     width: 90%;
     font-size: 1.5em;
     margin: 0 auto 40px auto;
