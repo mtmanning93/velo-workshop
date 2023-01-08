@@ -27,6 +27,7 @@ h1 {
     font-family: Roboto Condensed, sans-serif;
     color: #121212;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 
 h2,
@@ -34,6 +35,7 @@ h3 {
     font-family: Roboto Condensed, sans-serif;
     color: #F05454;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 
 /* LOGO / MAN NAV BAR */
@@ -95,7 +97,7 @@ a:active {
 /* Main index.html Section */
 
 #main {
-    height: 1350px;
+    height: fit-content;
     width: 100%;
     background-color: #F5F5F5;
     display: flex;
@@ -110,6 +112,7 @@ a:active {
 .info {
     height: 300px;
     width: 90%;
+    margin-top: 20px;
     background-color: #42526e;
     border: 2px solid #121212;
     display: flex;
@@ -159,7 +162,6 @@ a:active {
 }
 
 .words h2 {
-    text-decoration: underline;
     font-size: 2em;
     padding-bottom: 10px;
 }
@@ -218,7 +220,8 @@ table {
 .container:hover,
 .serv-box:hover,
 #booking-form:hover,
-.team-row:hover {
+.team-row:hover,
+#video-row:hover {
     box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.24), 0 20px 50px 0 rgba(46, 45, 45, 0.657);
 }
 
@@ -233,7 +236,25 @@ table {
 }
 
 #riding-video {
+    width: 50%;
     background-color: #121212;
+}
+
+/* Video Text */
+
+#video-text-cont {
+    width: 50%;
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#video-text-cont h2,
+p {
+    padding: 10px 20px;
 }
 
 /* Footer */
@@ -310,7 +331,6 @@ footer ul {
 
 .serv-box h1,
 form h1 {
-    text-decoration: underline;
     font-size: 2em;
     margin: 1em auto;
 }
@@ -368,7 +388,6 @@ form h1 {
 #gallery-title {
     width: 100%;
     text-align: center;
-    text-decoration: underline;
     padding: 20px 0;
 }
 
@@ -457,7 +476,6 @@ select {
 
 .page-intro h1 {
     font-size: 3em;
-    text-decoration: underline;
     margin-bottom: 20px;
 }
 
@@ -576,6 +594,23 @@ select {
         height: 400px;
     }
 
+    #video-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video-text-cont {
+        width: 100%;
+        padding-bottom: 20px; 
+    }
+
+    #riding-video {
+        width: 60%
+    }
+
+*/
+
     /* services.html */
 
     .services-main {
@@ -604,7 +639,8 @@ select {
         flex-direction: column;
     }
 
-    .profile-info, #mid-row .profile-info {
+    .profile-info,
+    #mid-row .profile-info {
         width: 75%;
         padding: 0;
     }
@@ -613,6 +649,14 @@ select {
 /* Querie ensures better fit for profile images and thus better UX */
 
 @media screen and (max-width: 750px) {
+
+    /* index.html */
+
+    #riding-video {
+        width: 75%
+    }
+
+    /* teams.html */
 
     .profile-img {
         width: 75%
@@ -636,10 +680,6 @@ select {
         width: 100%;
     }
 
-    #main {
-        height: 2000px;
-    }
-
     .info {
         height: 600px;
         flex-direction: column;
@@ -650,13 +690,18 @@ select {
         width: 100%;
     }
 
+    #riding-video {
+        width: 100%;
+    }
+
     /* teams.html */
 
     .profile-img {
         width: 100%;
     }
 
-    .profile-info, #mid-row .profile-info {
+    .profile-info,
+    #mid-row .profile-info {
         width: 100%;
     }
 
@@ -753,6 +798,10 @@ select {
     }
 
     .words p {
+        font-size: 1em;
+    }
+
+    #video-text-cont {
         font-size: 1em;
     }
 
