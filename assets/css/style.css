@@ -598,6 +598,18 @@ select {
 
 /* MEDIA QUERIES */
 
+/* Large Screen/ Desktop Sizes */
+
+@media screen and (min-width: 1400px) {
+    .profile-img {
+        justify-content: center;
+    }
+
+    .profile-img img {
+        width: 75%;
+    }
+}
+
 /* Medium/ Tablet/ Lanscape Screen Sizes */
 
 @media screen and (max-width: 950px) {
