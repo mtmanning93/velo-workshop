@@ -95,7 +95,7 @@ a:active {
 /* Main index.html Section */
 
 #main {
-    height: 950px;
+    height: 1350px;
     width: 100%;
     background-color: #F5F5F5;
     display: flex;
@@ -220,6 +220,20 @@ table {
 #booking-form:hover,
 .team-row:hover {
     box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.24), 0 20px 50px 0 rgba(46, 45, 45, 0.657);
+}
+
+/* VIDEO */
+
+#video-row {
+    height: fit-content;
+}
+
+#video {
+    width: 100%;
+}
+
+#riding-video {
+    background-color: #121212;
 }
 
 /* Footer */
