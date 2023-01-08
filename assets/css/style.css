@@ -80,7 +80,7 @@ h3 {
 }
 
 #home-img {
-    height: 600px;
+    height: 100%;
     width: 90%;
     background: url('../images/two-mechanics.jpg') no-repeat center center;
     background-size: cover;
@@ -357,7 +357,7 @@ form h1 {
     width: 100%;
     text-align: center;
     text-decoration: underline;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 #gallery {
@@ -559,6 +559,10 @@ select {
         padding: 0;
     }
 
+    #img-container {
+        height: 400px;
+    }
+
     .services-main {
         flex-direction: column;
         height: 1650px;
@@ -580,6 +584,13 @@ select {
 
 @media screen and (max-width: 600px) {
 
+    /* home */
+
+    #home-img {
+        margin: 0;
+        width: 100%;
+    }
+
     #main {
         height: 2000px;
     }
@@ -593,6 +604,8 @@ select {
     .container {
         width: 100%;
     }
+
+    /* footer */
 
     .social-icons {
         display: inline;
