@@ -283,6 +283,11 @@ footer ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: 0.8s;
+}
+
+.serv-box:hover {
+    width: 35%;
 }
 
 .service-type-info div {
