@@ -484,25 +484,42 @@ select {
 /* THANKYOU.HTML */
 
 #thankyou {
-    max-height: 600px;
-    color: #121212; 
+    height: auto;
+    background-color: #42526e;
+    padding: 40px 0;
+    border-top: 2px solid #121212;
+    border-bottom: 2px solid #121212;
+    text-align: center;
 }
 
-#thankyou h2, h3 {
-    width: 90%;
+#thankyou>h2,
+#thankyou>h3 {
+    width: 100%;
     text-align: center;
-    font-size: 2em;
     text-decoration: none;
-    padding: 20px;
     margin: 0 auto;
+}
+
+#thankyou>h2 {
+    color: #121212;
+    background-color: #F5F5F5;
+    font-size: 2em;
+    border-top: 2px solid #121212;
+    border-bottom: 2PX solid #121212;
+    padding: 20px 0;
+}
+
+#thankyou>h3 {
+    color: #F5F5F5;
+    font-size: 1.5em;
+    padding-top: 20px;
 }
 
 #back-home-container {
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     justify-content: center;
-
 }
 
 #back-home-button {
@@ -581,7 +598,8 @@ select {
     color: #121212;
 }
 
-.profile-titles>h2, .profile-titles>h3 {
+.profile-titles>h2,
+.profile-titles>h3 {
     text-decoration: none;
 }
 
@@ -680,7 +698,7 @@ select {
 
     #video-text-cont {
         width: 100%;
-        padding: 20px 0; 
+        padding: 20px 0;
     }
 
     #riding-video {
@@ -846,6 +864,12 @@ select {
     .form-divider {
         margin: 0 20px;
     }
+
+    /* thankyou.html */
+
+    #back-home-button {
+        font-size: 1em;
+    }
 }
 
 /* Small / Slim Screen Sizes */
@@ -906,6 +930,16 @@ select {
     .serv-box {
         text-align: left;
         margin-bottom: 20px;
+    }
+
+    /* thankyou.html */
+
+    #thankyou>h3 {
+        font-size: 1em;
+    }
+
+    #thankyou>h2 {
+        font-size: 1.5em;
     }
 
     /* teams.html */
