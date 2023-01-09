@@ -6,6 +6,10 @@
     border: none;
 }
 
+html {
+    height: 100%
+}
+
 /* MAIN STYLES */
 
 body {
@@ -97,8 +101,9 @@ a:active {
 /* Main index.html Section */
 
 #main {
-    height: fit-content;
+    height: auto;
     width: 100%;
+    margin-bottom: 20px;
     background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
@@ -260,8 +265,8 @@ table {
 /* Footer */
 
 footer {
-    padding: 30px 40px;
-    margin-top: 15px;
+    width: 100%;
+    padding: 20px 0;
     color: #ffffff;
     background-color: #2e455cc8;
     display: flex;
@@ -271,6 +276,7 @@ footer {
 
 footer ul {
     list-style: none;
+    padding: 0 40px;
 }
 
 #contact-info {
@@ -400,6 +406,7 @@ form h1 {
 
 #gallery {
     width: 100%;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -468,7 +475,7 @@ select {
 }
 
 #terms {
-    height: 50px;
+    height: 75px;
     width: 70%;
     border: 2px solid #121212;
     text-align: left;
@@ -487,6 +494,7 @@ select {
     height: auto;
     background-color: #42526e;
     padding: 40px 0;
+    margin: 20px 0 250px 0;
     border-top: 2px solid #121212;
     border-bottom: 2px solid #121212;
     text-align: center;
@@ -567,6 +575,7 @@ select {
 
 #team-main-content {
     width: 100%;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
