@@ -934,6 +934,7 @@ select {
     .page-intro {
         text-align: left;
         font-size: 0.6em;
+        padding-left: 20px;
     }
 
     .page-intro p {
