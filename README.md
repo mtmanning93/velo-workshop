@@ -1,108 +1,83 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Velo Workshop
 
-Welcome Matt Manning,
+Velo Workshop aims to make getting a bike serviced or fixed a simpler task for the rider. By creating an online presence where the rider can be introduced and find Velo Workshop easily. In times of need, for example an emergency puncture, the rider can contact them directly via the contact information provided or simply follow the online map to the workshop. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+More specifically this platform provides the rider with a simple and easy way to book their bike in for service, choosing from 3 types. Leisure, Weekend Rider and Pro service options are given, detailling a breakdown in costs, duration of work and what can be expected from each service. By booking in ahead of time they can plan ahead, and ensure the level of service they want can be given.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Site Goals/ Strategy
 
-## Gitpod Reminders
+Velo Workshop is useful to the rider as they can find a nearby mechanic, book servicing ahead of time, speak to a professional and realise a community. It is useful to the owner as it helps market a service to the user, provide an overview of their qualifications and achievements creating a trust within the industry and reduse phone calls regarding servicing, leaving more time for mechanics.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![](./assets/doc-images/responsive-screenshot.png)
 
-`python3 -m http.server`
+## Site Wide Features
 
-A blue button should appear to click: _Make Public_,
+### - __Header__
 
-Another blue button should appear to click: _Open Browser_.
+- Logo 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The simple logo remains the same size and in the same location throughout. When clicked it provides a link back to the home page.
 
-A blue button should appear to click: _Make Public_,
+- Navbar
 
-Another blue button should appear to click: _Open Browser_.
+The navbar contains links to the home (index.html), servicing and our team page, it remains at the top of the page and consistent throughout making it simple to navigate the site, when hovered it shows red providing more clarity. Home, Servicing and Our Team are listed in order of importance to the site and user.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![](./assets/doc-images/header.png)
 
-To log into the Heroku toolbelt CLI:
+### - __Footer__
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The footer sits at the bottom of the page across the site, it holds the contact details and social media links, this is normal for most websites and so it is easy for the user to recognise its usage. Just like the nav the links turn red when hovered helping users understand that it is a link.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![](./assets/doc-images/footer.png)
 
-------
+### - __Page Intro__
 
-## Release History
+Featured on both the services and team page the page intro section provides brief information to provide a little more content to the information on the page. It is always style the same making navigation through each of these informative pages easy.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![](./assets/doc-images/page-intro.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Features by Page
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### - __Home__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The main section of the home page begins with a large image, followed by 4 informative sections. Each section has the same style, information on one side and some visual content on the other. When hovered over they appear to stand out with shadow, providing interaction. The sections were chosen as they quickly answer initial questions asked by the user. Are they good mechanics? What is the service they offer? Where are they? When can i go?
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![](./assets/doc-images/main-home-img.png) 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- Main Image
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The main image is used to portray the workshop environment of Velo Workshop. The workshop is well stocked with tools and parts and has the tools cleanly placed in their correct spaces. The main mechanic in the image is smiling showing friendliness and pleasure in his work. The image was chosen as it provides the user with an insight into how the workshop is running. It is clean, but productive and the mechanics look to be interested and friendly. It is positioned so that the user immediately sees this when entering the site. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![](./assets/doc-images/main-home-section.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Testimonial
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+A testimonial is provided at the top of the page, its a review which immediately provides the user with real feedback of what to expect from a previous user. It is used to build trust in new users. The target user here is a passionate cyclist someone who needs to know if we have taken good care of previous customers.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- Servicing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+In the servicing section a short and punchy intro to our servicing is followed by a call to action. An interative button linked to more information on the servicing page. It contrasts well with the background and responds when hovered over. The button writing then turns red to signal that this is link as the user will learn quickly as they navigate the site.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- Location
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The location section provides an interactive map for the user to find us easily. Next to this map are the opening times with days off, referencing riding a bike to further build a connection with the user. These are paired as most users when finding a location will next ask the question, "when is it open?"
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Community
 
-------
+Finally in the community section there is an invite to connect with Velo Workshop and join them on a ride. Next to it, a video, showing some footage of a ride by one of our community members. It is tempting the user to connect with them. Again here the target user is a passionate cyclist.
 
-## FAQ about the uptime script
+### - __Servicing__
 
-**Why have you added this script?**
+This page further breaks down the servicing packages and helps the user decide on which one is best suited to their needs. At the bottom is a small gallery of images displaying the workshop. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![](./assets/doc-images/servicing-types.png)
 
-**How will this affect me?**
+- Types of servicing
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+In this section the servicing types are described in more detail. Giving the costs, features and duration of each service. Each service type is named and coloured differently. Whilst maintaining the site wide patterns of heading and information colors. Each type contains a **Book Now!** button. The button is styled the same across the site making it easily memorable that clicking here is move towards the act of booking. Another feature specific to the servicing page is the interactive containers which grow from 30% to 40% as you hover.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![](./assets/doc-images/workshop-gallery.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- Workshop Gallery
 
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Used to further the users understanding of the workshops competence. Clean workshop images are used with the correct and necessary tools displayed.
