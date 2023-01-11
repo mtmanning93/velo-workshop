@@ -81,3 +81,13 @@ In this section the servicing types are described in more detail. Giving the cos
 - Workshop Gallery
 
 Used to further the users understanding of the workshops competence. Clean workshop images are used with the correct and necessary tools displayed.
+
+### - __Our Team__
+
+A team page is used in order to build trust in the user and familiarity with the mechanics. Showing qualifications and achievements shows the user the team members are proffesionally trained and knowledgable, not just someone who can fix a tire. It shows high standards to the user whilst showcasing the skills of the Velo Workshop.
+
+![](./assets/doc-images/our-team-main.png)
+
+- Profile Sections
+
+Each profile is simply designed to showcase each team members valuable attributes and skills. An image followed by name, position in the company, a brief intoduction, qualifications and achievements. They are similarly styled the same as the home page in. Media followed by information, whilst being interactive when hovered over.
