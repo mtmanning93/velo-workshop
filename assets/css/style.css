@@ -96,7 +96,7 @@ a:active {
 #home-img {
     height: 100%;
     width: 90%;
-    background: url('../images/two-mechanics.jpg') no-repeat center center;
+    background: url('../images/home-main.webp') no-repeat center center;
     background-size: cover;
     margin: 0 5%;
 }
@@ -179,7 +179,7 @@ a:active {
 /* servicing button container */
 
 #serv-button-cont {
-    background: url(../images/crank-repair.jpg) no-repeat center center;
+    background: url('../images/crank-servicing.webp') no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -682,6 +682,12 @@ select {
 /* Large Screen/ Desktop Sizes */
 
 @media screen and (min-width: 1400px) {
+
+    #test-img-cont img {
+        position: relative;
+        bottom: 50px;
+    }
+
     .profile-img {
         justify-content: center;
     }
