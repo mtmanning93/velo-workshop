@@ -91,3 +91,18 @@ A team page is used in order to build trust in the user and familiarity with the
 - Profile Sections
 
 Each profile is simply designed to showcase each team members valuable attributes and skills. An image followed by name, position in the company, a brief intoduction, qualifications and achievements. They are similarly styled the same as the home page in. Media followed by information, whilst being interactive when hovered over.
+
+### - __Form__
+
+The form page is simple but clear, providing inputs for the necessary information on the left and on the right providing inputs related to bikes and riding. Again showing the user we are passionate cyclists as well as professional mechanics. The call to action once again is styled in a way which by now the user will fully understand its purpose. At the very bottom a scrollable t&c's area for any questions regarding finer details.
+
+![](./assets/doc-images/form.png)
+
+### - __Thankyou__
+
+The final page on the journey to booking a service is a confirmation page. Here the user gets visual feeback on completing the form. The user is briefly thanked and offered an option to call, if they still have questions or concerns. The last feature is a **Back to Home** button. The page is styled using the page-intro styling for consisitency.
+
+![](./assets/doc-images/thankyou.png)
+
+
+
