@@ -104,5 +104,11 @@ The final page on the journey to booking a service is a confirmation page. Here 
 
 ![](./assets/doc-images/thankyou.png)
 
+## Potential Future Features
 
+In the future an extra section would be added to the servicing page titled "Other" for users to specify and book smaller jobs.
+
+A bike fitting section for cyclist to get correct and professional fittings and sizings carried out.
+
+Another page where users can visit to learn how they can maintain their own bicycle better, including videos and item lists for tools and parts.
 
