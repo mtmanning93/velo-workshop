@@ -176,11 +176,11 @@ No errors or warnings were shown when passing code through the [Jigsaw CSS Valid
 
 The site was deployed to GitHub Pages using the following method:
 
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- In the GitHub repository named 'velo-workshop', navigate to the Settings tab.
+- From here navigate the left menu and click the 'Pages' link.
+- Once the main branch has been selected, the page will be automatically refreshed. At the top of the 'Pages' settings page there will be a highlighted like followed by a button to visit site.
 
-The link to the live website is here - (*)
+The link to the live website is here - [Velo Workshop](https://mtmanning93.github.io/velo-workshop/)
 
 ## Credits
 
