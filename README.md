@@ -166,11 +166,11 @@ To fix these unwanted scores it entailled first compressing image files but also
 
 ### - __HTML__
 
-No errors or warnings were shown when passing code through the [W3C Validator](*)
+No errors or warnings were shown when passing code through the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmtmanning93.github.io%2Fvelo-workshop%2F)
 
 ### - __CSS__
 
-No errors or warnings were shown when passing code through the [Jigsaw CSS Validator](http://jigsaw.w3.org/css-validator/validator$link)
+No errors or warnings were shown when passing code through the [Jigsaw CSS Validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmtmanning93.github.io%2Fvelo-workshop%2F&usermedium=all&vextwarning=&warning=1)
 
 ## Deployment
 
