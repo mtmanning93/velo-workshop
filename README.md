@@ -190,6 +190,10 @@ The link to the live website is here - (*)
 
     Both fonts used (Roboto and Roboto Condensed) were taken from [Google Fonts](https://fonts.google.com/)
 
+- Color Pallette
+
+    Selected colors were chosen through this palette [Colorhunt](https://colorhunt.co/palette/f5f5f5f0545430475e121212)
+
  - Header: Logo and Nav
 
     The logo and nav original structure and style were taken from the ['Love Running'](https://github.com/Code-Institute-Org/love-running-2.0) follow along from Code Institute.
@@ -206,6 +210,8 @@ The link to the live website is here - (*)
 
     3 service structure inspiration (found on during design phase) - [NipNip](https://www.nipnip.co.uk/book-a-service/), [Bikeaholic](https://www.bikeaholic.co.nz/pages/servicing)
 
+    Main home page section idea was taken from [Code Institute Dashboard](https://learn.codeinstitute.net/dashboard)
+
 - Hover Effects
 
     Inspiration and guidance for button and link hover effect came from multiple sources - [Free Frontend](https://freefrontend.com/css-hover-effects/), [W3 Schools](https://www.w3schools.com/cssref/sel_hover.php)
@@ -213,6 +219,11 @@ The link to the live website is here - (*)
 - Box Sizing
 
     Tutorial and Instructions from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+
+- Child Selectors
+
+    Tutorial of 'nth child selectors' [W3 Schools](https://www.w3schools.com/cssref/sel_nth-child.php)
+
 
 ### Media
 
