@@ -40,10 +40,6 @@ h2, h3 {
     text-transform: uppercase;
 }
 
-h2 {
-    text-decoration: underline;
-}
-
 /* LOGO / MAN NAV BAR */
 
 #logo {
@@ -374,6 +370,7 @@ form h1 {
     padding: 20px 30px;
     display: inline-block;
     cursor: pointer;
+    text-decoration: none;
     border: 2px solid white;
     border-radius: 5px;
     margin: 40px 0;
@@ -401,6 +398,7 @@ form h1 {
     width: 100%;
     text-align: center;
     padding-bottom: 20px;
+    text-decoration: none;
 }
 
 #gallery {
@@ -417,10 +415,16 @@ form h1 {
 
 #gallery img {
     width: 100%;
+    transition: 0.5s;
 }
 
 #gallery div:first-child img {
     height: 100%;
+}
+
+#gallery img:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
 }
 
 /* FORM.HTML */
