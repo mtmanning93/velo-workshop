@@ -42,13 +42,11 @@ Featured on both the services and team page the page intro section provides brie
 
 The main section of the home page begins with a large image, followed by 4 informative sections. Each section has the same style, information on one side and some visual content on the other. When hovered over they appear to stand out with shadow, providing interaction. The sections were chosen as they quickly answer initial questions asked by the user. Are they good mechanics? What is the service they offer? Where are they? When can i go?
 
-![](./assets/doc-images/main-home-img.png) 
-
 - Main Image
 
 The main image is used to portray the workshop environment of Velo Workshop. The workshop is well stocked with tools and parts and has the tools cleanly placed in their correct spaces. The main mechanic in the image is smiling showing friendliness and pleasure in his work. The image was chosen as it provides the user with an insight into how the workshop is running. It is clean, but productive and the mechanics look to be interested and friendly. It is positioned so that the user immediately sees this when entering the site. 
 
-![](./assets/doc-images/main-home-section.png)
+![](./assets/doc-images/main-home-img.png) 
 
 - Testimonial
 
@@ -64,33 +62,36 @@ The location section provides an interactive map for the user to find us easily.
 
 - Community
 
-Finally in the community section there is an invite to connect with Velo Workshop and join them on a ride. Next to it, a video, showing some footage of a ride by one of our community members. It is tempting the user to connect with them. Again here the target user is a passionate cyclist.
+Finally in the community section there is an invite to connect with the Velo Workshop community and join them on a ride. Next to it, a video, showing some footage of a ride by one of our community members. It is tempting the user to connect with them. Again here the target user is a passionate cyclist.
+
+![](./assets/doc-images/main-home-section.png)
 
 ### - __Servicing__
 
 This page further breaks down the servicing packages and helps the user decide on which one is best suited to their needs. At the bottom is a small gallery of images displaying the workshop. 
 
-![](./assets/doc-images/servicing-types.png)
-
 - Types of servicing
 
-In this section the servicing types are described in more detail. Giving the costs, features and duration of each service. Each service type is named and coloured differently. Whilst maintaining the site wide patterns of heading and information colors. Each type contains a **Book Now!** button. The button is styled the same across the site making it easily memorable that clicking here is move towards the act of booking. Another feature specific to the servicing page is the interactive containers which grow from 30% to 40% as you hover.
+In this section the servicing types are described in more detail. Giving the costs, features and duration of each service. Each service type is named and coloured differently. Whilst maintaining the site wide patterns of heading and information colors. Each type contains a **Book Now!** button. The button is styled the same across the site making it easily memorable that clicking here is move towards the act of booking. Another feature specific to the servicing page is the interactive containers which grow from 30% to 33% as you hover.
 
-![](./assets/doc-images/workshop-gallery.png)
+![](./assets/doc-images/servicing-types.png)
 
 - Workshop Gallery
 
 Used to further the users understanding of the workshops competence. Clean workshop images are used with the correct and necessary tools displayed.
 
+![](./assets/doc-images/workshop-gallery.png)
+
+
 ### - __Our Team__
 
 A team page is used in order to build trust in the user and familiarity with the mechanics. Showing qualifications and achievements shows the user the team members are proffesionally trained and knowledgable, not just someone who can fix a tire. It shows high standards to the user whilst showcasing the skills of the Velo Workshop.
 
-![](./assets/doc-images/our-team-main.png)
-
 - Profile Sections
 
 Each profile is simply designed to showcase each team members valuable attributes and skills. An image followed by name, position in the company, a brief intoduction, qualifications and achievements. They are similarly styled the same as the home page in. Media followed by information, whilst being interactive when hovered over.
+
+![](./assets/doc-images/our-team-main.png)
 
 ### - __Form__
 
@@ -112,3 +113,71 @@ A bike fitting section for cyclist to get correct and professional fittings and 
 
 Another page where users can visit to learn how they can maintain their own bicycle better, including videos and item lists for tools and parts.
 
+## Testing
+
+On completion the site was tested across multiple browsers and platforms. The site has been built using Chrome, therefore it was also tested across Microsoft Edge and Firefox for desktops and larger screen sizes, whilst tested using Safari and Chrome on mobile and tablet devices.
+
+### - __Screen Testing__
+
+The site was screen tested for reponsiveness locally using Chrome developer tools and also across real devices. These included: 
+- __Desktops and Monitors__
+    - Large HD desktop monitor
+    - Standard PC monitor
+    - Laptop (Apple MacBook)
+- __Phones and Tablets (landscape and portrait)__
+    - iPad
+    - iPhone X
+    - iPhone 6s
+    - Samsung Galaxy Xcover
+
+### - __Testing Responsive Design__
+
+Initially when testing the site I encounted some issues when scaling down for example the hover effect used to expand the services section were no longer user friendly and altered the positioning of the containers. In order to counteract such errors I was forced to alter the structure of the pages. Simply switching from rows to columns within each pages main informative section and removing such hover effects. 
+
+### Problems and Bugs: 
+
+- __File-Paths__
+
+    - When first conducting the tests it became quickly apparent that images would not load due to using absolute file paths and not relative this was quickly fixed.
+
+- __Row to column__
+
+    - The initial problem when first attempting to make this response happen was the complexity of vertical alignment. When researching I found the best alternative would be to use Flex Box. This however meant altering the original core CSS before implementing the media queries I needed. 
+
+![](./assets/doc-images/s-response.png) ![](./assets/doc-images/l-response.png)
+
+- __Responsive Form and Text__
+
+    - Another issue arose when reaching smaller screen sizes in portait mode. Font size and text alignment needed to be altered in order to be user friendy. For example the form could no longer be provided in one screen width, therefore the alignment was altered to hug the left of the screen creating a long form whilst maintaining the styles. In fact this left alignment was introduced to large elements of text when this media querie was reached.
+
+![](./assets/doc-images/s-form.png) ![](./assets/doc-images/l-form.png)
+
+- __Image File Size__
+
+    - A time consuming issue was reached when running a Lighthouse analysis. It showed the performance of the home page to be extremely low at a score of 49. To fix this issue all image files, site wide, had to be compressed. In doing so it was discovered that an even more current and supported file type 'webp' was also available. This meant converting images from jpg - webp and finally compressing the new webp files. On completion of this task the images had drastically reduced in file size, increasing the performance score of tthe home page to 75. 
+
+![](./assets/doc-images/lighthouse-home.png)
+
+## Validation
+
+### - __HTML__
+
+No errors or warnings were shown when passing code through the [W3C Validator](*)
+
+### - __CSS__
+
+No errors or warnings were shown when passing code through the [Jigsaw CSS Validator](http://jigsaw.w3.org/css-validator/validator$link)
+
+## Deployment
+
+The site was deployed to GitHub Pages using the following method:
+
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The link to the live website is here - (*)
+
+
+
+    
