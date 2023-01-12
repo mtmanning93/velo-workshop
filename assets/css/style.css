@@ -153,6 +153,7 @@ a:active {
 
 .words p {
     font-size: 1.5em;
+    margin-top: 10px;
 }
 
 .words h3 {
@@ -162,8 +163,11 @@ a:active {
 }
 
 .words h2 {
+    width: 75%;
+    margin: 0 auto;
     font-size: 2em;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
 }
 
 /* Servicing Row on Index.html */
@@ -214,8 +218,7 @@ a:active {
 
 table {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
 }
 
 .container:hover,
@@ -254,7 +257,12 @@ table {
 }
 
 #video-text-cont>h2 {
-    margin: 20px;
+    /* margin: 20px; */
+
+    width: 75%;
+    margin: 20px auto;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
 }
 
 #video-text-cont>p {
@@ -561,6 +569,7 @@ select {
     font-size: 3em;
     margin-bottom: 20px;
     color: #121212;
+    text-decoration: underline;
 }
 
 .page-intro>h3 {
