@@ -210,6 +210,10 @@ The link to the live website is here - (*)
 
     Inspiration and guidance for button and link hover effect came from multiple sources - [Free Frontend](https://freefrontend.com/css-hover-effects/), [W3 Schools](https://www.w3schools.com/cssref/sel_hover.php)
 
+- Box Sizing
+
+    Tutorial and Instructions from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+
 ### Media
 
 - Main Image
