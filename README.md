@@ -132,7 +132,7 @@ The site was screen tested for reponsiveness locally using Chrome developer tool
 
 ### - __Testing Responsive Design__
 
-Initially when testing the site some issues were encountered when scaling down, for example the hover effect used to expand the services section were no longer user friendly and altered the positioning of the containers. In order to counteract such errors the page structure was forced to change. Simply switching from rows to columns within each pages main informative section and removing such hover effects would fix the issue. 
+Initially when testing the site some issues were encountered when scaling down, for example the hover effect used to expand the services section were no longer user friendly and altered the positioning of the containers. In order to counteract such errors the page structure was forced to change. Simply switching from rows to columns within each pages' main informative section and removing such hover effects would fix the issue. 
 
 ### Problems and Bugs: 
 
@@ -152,7 +152,7 @@ Initially when testing the site some issues were encountered when scaling down, 
 
     - A time consuming issue was reached when running a Lighthouse analysis. It showed the performance of the home page to be extremely low at a score of 49. To fix this issue all image files, site wide, had to be compressed. In doing so it was discovered that an even more current and supported file type 'webp' was also available. This meant converting images from jpg - webp and finally compressing the new webp files. On completion of this task the images had drastically reduced in file size, increasing the performance score of tthe home page to 75. 
 
-![](./assets/doc-images/lighthouse-home.png)
+![](./assets/doc-images/lighthouse-home.png) 
 
 ### Lighthouse Analysis
 
@@ -184,12 +184,48 @@ The link to the live website is here - (*)
 
 ## Credits
 
-### Content
+### Content:
 
+- Fonts
 
+    Both fonts used (Roboto and Roboto Condensed) were taken from [Google Fonts](https://fonts.google.com/)
+
+ - Header: Logo and Nav
+
+    The logo and nav original structure and style were taken from the ['Love Running'](https://github.com/Code-Institute-Org/love-running-2.0) follow along from Code Institute.
+
+- Icons
+
+    Icons used in the logo and social icons found in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+- Structure
+
+    Tutorials and instructions based on **Flex Box** were taken from two sources - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) and [W3 Schools](https://www.w3schools.com/cssref/css3_pr_flex.php)
+
+    Our Team profile cards (found on during design phase) - [Bikeaholic NZ](https://www.bikeaholic.co.nz/pages/our-team)
+
+    3 service structure inspiration (found on during design phase) - [NipNip](https://www.nipnip.co.uk/book-a-service/), [Bikeaholic](https://www.bikeaholic.co.nz/pages/servicing)
+
+- Hover Effects
+
+    Inspiration and guidance for button and link hover effect came from multiple sources - [Free Frontend](https://freefrontend.com/css-hover-effects/), [W3 Schools](https://www.w3schools.com/cssref/sel_hover.php)
 
 ### Media
 
+- Main Image
 
+    The hero image was taken from [Freepik](https://www.freepik.com/free-photo/good-teamwork-two-nice-mans-busy-bicycle-workshop-mans-are-wearing-checkered-shirts_29998005.htm#query=bicycle%20mechanics&position=32&from_view=search&track=sph). The attributed artist: fxquadro on Freepik
+
+- Other Images
+
+    All other images found on the Velo Workshop site are from [Unsplash](https://unsplash.com/). The attributed artists are: Greg Trowman, Anton Savinov, Axel Brunst, Thomas Schweighofer, Markus Spiske.
+
+- Map (iframe)
+
+    Map iframe taken from [Google Maps](https://www.google.com/maps/place/Hauptstrasse+22,+3800+Matten+bei+Interlaken/@46.680955,7.8610284,17z/data=!3m1!4b1!4m5!3m4!1s0x478fa482ae028d95:0x404504a5e71d713e!8m2!3d46.680955!4d7.8632171)
+
+- Video
+
+    The video used was taken from [Pixabay](https://pixabay.com/videos/mountain-bike-enduro-sports-nature-18215/)
 
     
