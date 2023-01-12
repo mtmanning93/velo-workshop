@@ -2,7 +2,7 @@
 
 Velo Workshop aims to make getting a bike serviced or fixed a simpler task for the rider. By creating an online presence where the rider can be introduced and find Velo Workshop easily. In times of need, for example an emergency puncture, the rider can contact them directly via the contact information provided or simply follow the online map to the workshop. 
 
-More specifically this platform provides the rider with a simple and easy way to book their bike in for service, choosing from 3 types. Leisure, Weekend Rider and Pro service options are given, detailling a breakdown in costs, duration of work and what can be expected from each service. By booking in ahead of time they can plan ahead, and ensure the level of service they want can be given.
+More specifically this platform provides the rider with a simple and easy way to book their bike in for service, choosing from 3 types. Leisure, Weekend Rider and Pro service options are given, detailling a breakdown in costs, duration of work and what can be expected from each service. By booking online it means the user will make one less trip to the workshop when normally an initial first visit is needed purely to book in the work. By doing this the user can plan ahead, and ensure the level of service they want can be given.
 
 ## Site Goals/ Strategy
 
