@@ -132,23 +132,19 @@ The site was screen tested for reponsiveness locally using Chrome developer tool
 
 ### - __Testing Responsive Design__
 
-Initially when testing the site I encounted some issues when scaling down for example the hover effect used to expand the services section were no longer user friendly and altered the positioning of the containers. In order to counteract such errors I was forced to alter the structure of the pages. Simply switching from rows to columns within each pages main informative section and removing such hover effects. 
+Initially when testing the site some issues were encountered when scaling down, for example the hover effect used to expand the services section were no longer user friendly and altered the positioning of the containers. In order to counteract such errors the page structure was forced to change. Simply switching from rows to columns within each pages main informative section and removing such hover effects would fix the issue. 
 
 ### Problems and Bugs: 
 
-- __File-Paths__
-
-    - When first conducting the tests it became quickly apparent that images would not load due to using absolute file paths and not relative this was quickly fixed.
-
 - __Row to column__
 
-    - The initial problem when first attempting to make this response happen was the complexity of vertical alignment. When researching I found the best alternative would be to use Flex Box. This however meant altering the original core CSS before implementing the media queries I needed. 
+    - The initial problem when first attempting to make this response happen was the complexity of vertical alignment. When researching alternative methods it was found that Flex Box would be the alternative. This however meant altering the original core CSS before implementing the media queries needed. 
 
 ![](./assets/doc-images/s-response.png) ![](./assets/doc-images/l-response.png)
 
 - __Responsive Form and Text__
 
-    - Another issue arose when reaching smaller screen sizes in portait mode. Font size and text alignment needed to be altered in order to be user friendy. For example the form could no longer be provided in one screen width, therefore the alignment was altered to hug the left of the screen creating a long form whilst maintaining the styles. In fact this left alignment was introduced to large elements of text when this media querie was reached.
+    - Another issue arose when reaching smaller screen sizes in portait mode. Font size and text alignment needed to be altered in order to be user friendy. For example the form could no longer be provided in one screen width, therefore the alignment was altered to hug the left of the screen creating a long form whilst maintaining the styles. In fact this left alignment was introduced to large elements of text when this media querie was reached, as it provided much better readability to the user.
 
 ![](./assets/doc-images/s-form.png) ![](./assets/doc-images/l-form.png)
 
@@ -157,6 +153,14 @@ Initially when testing the site I encounted some issues when scaling down for ex
     - A time consuming issue was reached when running a Lighthouse analysis. It showed the performance of the home page to be extremely low at a score of 49. To fix this issue all image files, site wide, had to be compressed. In doing so it was discovered that an even more current and supported file type 'webp' was also available. This meant converting images from jpg - webp and finally compressing the new webp files. On completion of this task the images had drastically reduced in file size, increasing the performance score of tthe home page to 75. 
 
 ![](./assets/doc-images/lighthouse-home.png)
+
+### Lighthouse Analysis
+
+The original Lighthouse Analysis conducted showed high scores for 'Accessibility' and 'SEO' but a sub optimal score for 'Best Practices' and a low score as discussed above for 'Performance'.
+
+To fix these unwanted scores it entailled first compressing image files but also addressing the errors within 'Best Pratices'. When complete the lighthouse analysis of each page improved greatly.
+
+![](./assets/doc-images/lighthouse-scores.png)
 
 ## Validation
 
@@ -177,6 +181,14 @@ The site was deployed to GitHub Pages using the following method:
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The link to the live website is here - (*)
+
+## Credits
+
+### Content
+
+
+
+### Media
 
 
 
