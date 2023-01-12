@@ -415,16 +415,10 @@ form h1 {
 
 #gallery img {
     width: 100%;
-    transition: 0.5s;
 }
 
 #gallery div:first-child img {
     height: 100%;
-}
-
-#gallery img:hover {
-    -webkit-transform:scale(1.5);
-    transform:scale(1.5);
 }
 
 /* FORM.HTML */
