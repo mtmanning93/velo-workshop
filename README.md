@@ -78,10 +78,10 @@ In this section the servicing types are described in more detail. Giving the cos
 
 - Workshop Gallery
 
-Used to further the users understanding of the workshops competence. Clean workshop images are used with the correct and necessary tools displayed.
+Used to further the users understanding of the workshops competence. Clean workshop images are used with the correct and necessary tools displayed. It is fully responsive and on smaller screens the gallery is provided in a column form making them more visible to the user.
 
 ![](./assets/doc-images/workshop-gallery.png)
-
+![](./assets/doc-images/workshop-gallery-response.png)
 
 ### - __Our Team__
 
