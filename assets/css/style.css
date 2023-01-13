@@ -311,7 +311,7 @@ footer ul {
 
 .services-main {
     height: fit-content;
-    margin: 20px 5% 0 5%;
+    margin: 10px auto;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -325,7 +325,7 @@ footer ul {
 .serv-box {
     width: 30%;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 2px;
     box-sizing: border-box;
     text-align: center;
@@ -444,7 +444,7 @@ form h1 {
 
 #booking-form {
     width: 75%;
-    margin: 30px auto;
+    margin: 20px auto;
     text-align: center;
     padding: 20px 40px;
     background-color: rgb(245, 245, 245);
@@ -556,7 +556,7 @@ select {
 
 .page-intro {
     width: 100%;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
     color: #F5F5F5;
     background-color: #42526e;
@@ -588,7 +588,7 @@ select {
 
 #team-main-content {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
