@@ -396,8 +396,8 @@ form h1 {
 }
 
 #pro {
-    background-color: rgb(76, 91, 116);
-    color: #121212;
+    background-color: rgb(255 255 255);
+    border: 6px solid #1b2254;
 }
 
 /* Gallery Styling */
@@ -749,6 +749,20 @@ select {
         width: 90%;
     }
 
+    #gallery {
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    
+    #gallery div {
+        width: auto;
+        margin-bottom: 5px;
+    }
+    
+    #gallery img {
+        width: 100%;
+    }
+
     /* team.html */
 
     .team-row {
@@ -872,6 +886,11 @@ select {
 
     .serv-box:hover {
         width: 100%;
+    }
+
+    #pro {
+        border-right: none;
+        border-left: none;
     }
 
     /* form.html */
